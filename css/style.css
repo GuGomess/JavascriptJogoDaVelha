@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    background-color: #bdbdbd;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    width: 15vh;
+    height: 15vh;
+    font-size: 5vh;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button:hover {
+    background-color: #003f02;
+    cursor: pointer;
+}
+
+.botoes {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.botoes div {
+    justify-content: center;
+}
+
+.mensagem {
+    font-size: 32px;
+}
+
+.novoJogo input[type=button] {
+    background-color: #3e8e41;
+    border: none;
+    color: white;
+
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: auto;
+    height: 62px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.novoJogo input[type=button]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.novoJogo input[type=button]:hover {
+    background-color: #1e6920;
+    cursor: pointer;
+}
+
+.inicio {
+    font-size: 4vh;
+    margin: auto;
+}
+
+.inicio input[type=button] {
+    margin: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 2vh 1vh;
+    width: 20vh;
+    height: 10vh;
+    font-size: 3vh;
+    border-radius: 3px;
+}
+
+.inicio input[type=button]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.inicio input[type=button]:hover {
+    background-color: #1e6920;
+    cursor: pointer;
+}
+
+.pontuacao{
+    text-align: center;
+    margin: auto;
+    border: #1e6920 ;
+    background-color: #4CAF50;
+    width:fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.pontuacao input[type= button]{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.pontuacao input[type=button]:active {
+    background-color: #500900;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.pontuacao input[type=button]:hover {
+    background-color: #b11500;
+    cursor: pointer;
+}

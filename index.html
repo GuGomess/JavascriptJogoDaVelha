@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="inicio" id="inicio">
+        <p>Qual Jogador começa?</p>
+        <input type="button" value="Jogador 1" id="x">
+        <input type="button" value="Jogador 2" id="o">
+    </div>
+
+    <div class="botoes" id="botoes">
+
+        <div>
+            <input type="button" value=" " class="button">
+            <input type="button" value=" " class="button">
+            <input type="button" value=" " class="button">
+        </div>
+        <div>
+            <input type="button" value=" " class="button">
+            <input type="button" value=" " class="button">
+            <input type="button" value=" " class="button">
+        </div>
+        <div>
+            <input type="button" value=" " class="button">
+            <input type="button" value=" " class="button">
+            <input type="button" value=" " class="button">
+        </div>
+    </div>
+
+    <div class="mensagem" id="msg">
+    </div>
+    <div class="validacao" id="validacao">
+        Insira uma posição válida!
+    </div>
+
+    <div class="novoJogo" id="nJogo">
+        <input type="button" value="NOVO JOGO?" id="recomecar">
+    </div>
+
+    <div class="pontuacao">
+        <p style="color: rgb(136, 255, 0);"><b>PONTUAÇÃO</b></p>
+        <div class="jogador1" id="j1">
+            Jogador 1: 0
+        </div>
+
+        <div class="jogador2" id="j2">
+            Jogador 2: 0
+        </div>
+        <input type="button" value="Zerar pontuação" id="pontuacao">
+    </div>
+
+</body>
+
+</html>
