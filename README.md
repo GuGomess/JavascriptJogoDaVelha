@@ -1,2 +1,2 @@
-# JavascriptJogoDaVelha
-Clássico jogo da velha feito utilizando HTML, CSS e Javascript
+# JogoDaVelha
+Clássico jogo da velha desenvolvido com as linguagens HTML, CSS e Javascript
